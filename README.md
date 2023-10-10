@@ -16,6 +16,7 @@ e-Shop en stack MERN (MongoDB, Express.js, React, Node.js). Se usan las herramie
 
 # Live demo
 Se puede ver una live demo del sitio en el siguiente link: https://geekstore-qc7g.onrender.com/
+
 Notas:
 * Puede tardar en cargar o necesitar recargarla varias veces (por limitaciones del free tier de render.com)
 * Puede que las features en el live demo sean diferente a las del codigo fuente. Faltan cosas por hacer :)
