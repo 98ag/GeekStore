@@ -46,7 +46,7 @@ export default function Info() {
                     </div>
 
                     <div>
-                        <a href="#" className="info__datos--codigo">
+                        <a href="https://github.com/98ag/GeekStore" className="info__datos--codigo">
                             <span>Ver codigo fuente</span><OpenInNewIcon sx={{ fontSize: 18 }}/>
                         </a>
                     </div>
