@@ -1,0 +1,63 @@
+.ultimos{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem auto 1.3rem;
+    width: 90%;
+}
+
+.ultimos__titulo {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1.5rem 0 2rem 0;
+    padding-bottom: .5rem;
+    border-bottom: thick solid #1262cbc3;
+}
+
+.ultimos__carouselcontainer {
+    position: relative;
+}
+
+.ultimos__emblacontainer {
+    width: 89%;
+    margin: auto;
+}
+
+.ultimos__emblaelements{
+    display: flex;
+    margin: 10px;
+}
+
+.ultimos__emblaelements>*{
+    margin-right: 1.7rem;
+}
+
+.embla__button {
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    padding: 0; 
+}   
+
+.embla__button__svg {
+    width: 100%;
+    height: 100%;
+  }
+
+.ultimos__next {
+    right: 10px;
+}
+
+.ultimos__prev{
+    left: 10px;
+}
+
+.ultimos--boton {
+    width: 25vw;
+}

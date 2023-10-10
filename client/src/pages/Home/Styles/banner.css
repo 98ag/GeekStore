@@ -1,0 +1,44 @@
+.banner{  
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.banner__container {
+    display: flex;
+}
+.banner__slide {
+    flex: 0 0 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__dots-container {
+  position: absolute; 
+  width: 100%;
+  margin: 0 auto;
+  bottom: 5%;
+  display:flex;
+  justify-content: space-around;
+}
+
+.banner__dots>button {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin: 0 1rem;
+  border: none;
+}
+
+.activeSlideDot{
+  background: #2A7AE4;
+  outline: solid 2px white;
+}
+
+.slide-image{
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+  object-position: 50% 40%;
+}

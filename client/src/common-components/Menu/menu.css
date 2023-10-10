@@ -1,0 +1,27 @@
+.menu {
+    height: 3.8rem;
+    background-color: #2A7AE4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu__links {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__link {
+    font-size: 1.1rem;
+    color: white!important;
+}
+
+.menu__link:link, .menu__link:visited, .menu__link:active {
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    text-shadow: 1px 0 8px black, 1px 0 8px black, 1px 0 8px black;
+}

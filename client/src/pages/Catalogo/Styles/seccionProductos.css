@@ -1,0 +1,32 @@
+.seccionproduc--container {
+    width: 80vw;
+    margin: 0 auto 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+.seccionproduc--categ {
+    width: 30%;
+}
+
+.seccionproduc--lista {
+    width: 68%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 31.5%);
+    row-gap: 1.5rem;
+    column-gap: 2.75%;
+    align-content: flex-start;
+}
+
+.subcat-accordion{
+    margin-bottom: .3rem;
+}
+
+.subcat {
+    padding: .5rem 1rem;
+}
+
+.subcat-titulo {
+    cursor: pointer;
+}

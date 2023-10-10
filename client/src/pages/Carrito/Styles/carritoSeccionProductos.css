@@ -1,0 +1,33 @@
+.carrito__container {
+    width: 70%;
+    margin: 1.2rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito__container>* {
+    margin-bottom: 1rem;
+}
+
+.carrito__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrito__totalPrecio {
+    font-size: 1.3rem;
+}
+
+.carrito__error {
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.carrito__errorLink {
+    font-weight: 600;
+    color: #2A7AE4;
+    margin-left: .4rem;
+}
+
+

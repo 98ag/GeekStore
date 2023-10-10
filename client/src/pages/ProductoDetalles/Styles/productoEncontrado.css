@@ -1,0 +1,65 @@
+.pe__container {
+    width: 75vw;
+    display: flex;
+    margin: 3rem auto;
+}
+
+.pe__imagenContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pe__imagen {
+    width: 80%;
+    margin: auto;
+}
+
+.pe__infoContainer {
+    width: 50%;
+}
+
+.pe__nombre {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.pe__nombre, .pe__descripcion, .pe__precio {
+    padding-bottom: 0.66rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(114, 109, 109, 0.45);
+}
+
+.pe__precio {
+    text-align: center;
+    color: #2A7AE4;
+    font-weight: 500;
+}
+
+.pe__precioTitulo {
+    font-size: 1rem;
+}
+
+.pe__precioValor {
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
+.pe__boton {
+    display: flex;
+}
+
+.pe__cantidadContainer {
+    display: flex;
+    margin-left: .4rem;
+    align-self: center;
+    padding: .4rem 0;
+    border: 1px solid rgba(114, 109, 109, 0.45);
+    border-radius: 5px;
+}
+
+.pe__cantidad {
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+}
