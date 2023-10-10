@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "65232a1a1fb1b0c193cec7b7"
+  },
+  "img_url": "https://placehold.co/450x450",
+  "categoria": "Categoria 1",
+  "nombre": "Test",
+  "precio": 123,
+  "descripcion": "Lorem ipsum..."
+},
+{
+  "_id": {
+    "$oid": "6523327299cf3055e9dc4d62"
+  },
+  "img_url": "https://placehold.co/450x450",
+  "categoria": "Categoria 2",
+  "nombre": "Test producto 2",
+  "precio": 100,
+  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus dolor dui, sed pharetra elit consectetur nec. Proin non diam ex. Quisque nisi ante, rhoncus nec porttitor id, mollis at dui. Aliquam vestibulum lacus nisl, non varius risus fermentum ut. Aliquam orci ligula, sagittis eu vestibulum sed, eleifend non nibh. Nullam aliquam nisi a neque maximus egestas. ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6523327f99cf3055e9dc4d64"
+  },
+  "img_url": "https://placehold.co/450x450",
+  "categoria": "Categoria 3",
+  "nombre": "Test producto 3",
+  "precio": 250,
+  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus dolor dui, sed pharetra elit consectetur nec. Proin non diam ex. Quisque nisi ante, rhoncus nec porttitor id, mollis at dui. ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6523328799cf3055e9dc4d66"
+  },
+  "img_url": "https://placehold.co/450x450",
+  "categoria": "Categoria 4",
+  "nombre": "Test producto 4",
+  "precio": 250,
+  "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus dolor dui, sed pharetra elit consectetur nec.  ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "652332e0e2f5ab2d8440cbeb"
+  },
+  "img_url": "https://placehold.co/450x450",
+  "categoria": "Categoria 5",
+  "nombre": "Test producto 5",
+  "precio": 1090,
+  "descripcion": "Lorem ipsum dolor sit amet.",
+  "__v": 0
+}]
