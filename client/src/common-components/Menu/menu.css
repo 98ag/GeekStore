@@ -1,5 +1,5 @@
 .menu {
-    height: 3.8rem;
+    height: 4rem;
     background-color: #2A7AE4;
     display: flex;
     flex-direction: row;
@@ -7,21 +7,27 @@
     align-items: center;
 }
 
-.menu__links {
+.menu__linkcontainer {
     width: 80%;
     display: flex;
     justify-content: space-around;
 }
 
 .menu__link {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
     color: white!important;
 }
 
-.menu__link:link, .menu__link:visited, .menu__link:active {
+.menu--link:link, .menu--link:visited, .menu--link:active {
     text-decoration: none;
 }
 
-.menu__link:hover {
+.menu--link:hover {
     text-shadow: 1px 0 8px black, 1px 0 8px black, 1px 0 8px black;
+}
+
+.darkmode {
+    width: 10%;
+    color: white;
 }

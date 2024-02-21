@@ -29,13 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
-	line-height: 1;
 	font-family: 'Raleway', sans-serif;
+	line-height: 1;
 	color: #464646;
-	background-color: #f5f5f5;
-}
-.overflow{
-  overflow: hidden;
+	background-color: #e7e7e7;
 }
 ol, ul {
 	list-style: none;

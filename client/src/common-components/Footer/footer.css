@@ -1,10 +1,13 @@
 footer {
     display: flex;
     background: #3f87e4c4;
+    width: 100%;
+    margin-top: auto;
+    height: 55px;
 }
 
-.footer-text {
-    padding: 1.3rem;
+.footer__text {
+    padding: 1rem;
     color: white;
     font-size: 1.2rem;
     font-weight: 600;

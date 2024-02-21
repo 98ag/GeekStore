@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import Menu from "./Menu";
-import ProductoCard from "./ProductoCard";
-import { BotonSiguiente, BotonAnterior } from "./BotonesCarousel";
+import ConnectionErrorDialog from "./ConnectionErrorDialog";
 
-export { Header, Footer, Menu, BotonSiguiente, BotonAnterior, ProductoCard };
+export { Header, Footer, Menu, ConnectionErrorDialog };

@@ -1,8 +1,8 @@
-export type Producto = {
+export type Product = {
     _id: string;
     img_url: string;
-    categoria: string;
-    nombre: string;
-    precio: number;
-    descripcion: string;
+    category: string;
+    name: string;
+    price: number;
+    description: string;
 }

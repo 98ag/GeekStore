@@ -1,0 +1,187 @@
+[{
+  "_id": {
+    "$oid": "65a1e094aba2fc256db0f329"
+  },
+  "img_url": "https://source.unsplash.com/8l9VxXI28tY/500x500",
+  "__v": 0,
+  "category": "Telefonos",
+  "description": "Telefono 2",
+  "price": 1200,
+  "name": "Telefono 2"
+},
+{
+  "_id": {
+    "$oid": "65a6b428fc113c4be29f1a71"
+  },
+  "img_url": "https://source.unsplash.com/xC0ooAjPRwA/450x450",
+  "__v": 0,
+  "category": "Telefonos",
+  "description": "Telefono 3",
+  "price": 800,
+  "name": "Telefono 3"
+},
+{
+  "_id": {
+    "$oid": "65a6d93537b5fd6f95b1416f"
+  },
+  "img_url": "https://source.unsplash.com/t9DooibgMEk/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop 3",
+  "price": 3550,
+  "name": "Laptop 3"
+},
+{
+  "_id": {
+    "$oid": "65a6dd4a37b5fd6f95b14173"
+  },
+  "img_url": "https://source.unsplash.com/i5UV2HpITYA/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop  4",
+  "price": 3600,
+  "name": "Laptop 4"
+},
+{
+  "_id": {
+    "$oid": "65a736fa233bc95aa4ef56be"
+  },
+  "img_url": "https://source.unsplash.com/orDa1I8NN6g/450x450",
+  "__v": 0,
+  "category": "Memorias",
+  "description": "Memoria 3",
+  "price": 550,
+  "name": "Memoria 3"
+},
+{
+  "_id": {
+    "$oid": "65a7406e233bc95aa4ef56d4"
+  },
+  "img_url": "https://source.unsplash.com/6Sk-qRRq31Y/450x450",
+  "__v": 0,
+  "category": "Procesadores",
+  "description": "Procesador 3",
+  "price": 4100,
+  "name": "Procesador 3"
+},
+{
+  "_id": {
+    "$oid": "65bea40643c158fdd8725570"
+  },
+  "img_url": "https://source.unsplash.com/1SAnrIxw5OY/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop 1",
+  "price": 3000,
+  "name": "Laptop 1"
+},
+{
+  "_id": {
+    "$oid": "65a6b4d7fc113c4be29f1a77"
+  },
+  "img_url": "https://source.unsplash.com/DY3Nt1MrOrw/450x450",
+  "__v": 0,
+  "category": "Telefonos",
+  "description": "Telefono 5",
+  "price": 1800,
+  "name": "Telefono 5"
+},
+{
+  "_id": {
+    "$oid": "65a73868233bc95aa4ef56c4"
+  },
+  "img_url": "https://source.unsplash.com/4Iv0Z1e2nNY/450x450",
+  "__v": 0,
+  "category": "Procesadores",
+  "description": "Procesador 2",
+  "price": 4200,
+  "name": "Procesador 2"
+},
+{
+  "_id": {
+    "$oid": "655196d7581a57d0c5454da1"
+  },
+  "img_url": "https://source.unsplash.com/-haAxbjiHds",
+  "__v": 0,
+  "category": "Telefonos",
+  "description": "Telefono 1",
+  "price": 1000,
+  "name": "Telefono 1"
+},
+{
+  "_id": {
+    "$oid": "65a73736233bc95aa4ef56c0"
+  },
+  "img_url": "https://source.unsplash.com/DubQVeFFbFQ/450x450",
+  "__v": 0,
+  "category": "Procesadores",
+  "description": "Procesador 1",
+  "price": 4000,
+  "name": "Procesador 1"
+},
+{
+  "_id": {
+    "$oid": "65a6b486fc113c4be29f1a75"
+  },
+  "img_url": "https://source.unsplash.com/1NZcjdo2hKQ/450x450",
+  "__v": 0,
+  "category": "Telefonos",
+  "description": "Telefono 4",
+  "price": 2000,
+  "name": "Telefono 4"
+},
+{
+  "_id": {
+    "$oid": "65a73619233bc95aa4ef56b8"
+  },
+  "img_url": "https://source.unsplash.com/jb10hnn2JVs/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop 5",
+  "price": 3400,
+  "name": "Laptop 5"
+},
+{
+  "_id": {
+    "$oid": "65a73694233bc95aa4ef56ba"
+  },
+  "img_url": "https://source.unsplash.com/lYxQ5F9xBDM/450x450",
+  "__v": 0,
+  "category": "Memorias",
+  "description": "Memoria 1",
+  "price": 500,
+  "name": "Memoria 1"
+},
+{
+  "_id": {
+    "$oid": "65a736bd233bc95aa4ef56bc"
+  },
+  "img_url": "https://source.unsplash.com/Sdn4xM5TsIo/450x450",
+  "__v": 0,
+  "category": "Memorias",
+  "description": "Memoria 2",
+  "price": 650,
+  "name": "Memoria 2"
+},
+{
+  "_id": {
+    "$oid": "65abfffd622ef945736aa893"
+  },
+  "img_url": "https://source.unsplash.com/yNvVnPcurD8/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop 6",
+  "price": 3500,
+  "name": "Laptop 6 8gb Memoria RAM"
+},
+{
+  "_id": {
+    "$oid": "65beb4e243c158fdd872559a"
+  },
+  "img_url": "https://source.unsplash.com/_sg8nXmpWDM/450x450",
+  "__v": 0,
+  "category": "Laptops",
+  "description": "Laptop 2",
+  "price": 3200,
+  "name": "Laptop 2"
+}]

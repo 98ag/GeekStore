@@ -1,0 +1,11 @@
+.categories__name {
+    cursor: pointer;
+}
+
+.categories__t {
+    padding: .5rem 1rem;
+}
+
+.categories__container {
+    width: 30%;
+}

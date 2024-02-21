@@ -1,0 +1,61 @@
+.latest {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto 4rem;
+    width: 90%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.latest__title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1.5rem 0 2rem 0;
+    padding-bottom: .5rem;
+    border-bottom: thick solid #1262cbc3;
+}
+
+.latest__carouselcontainer {
+    position: relative;
+}
+
+.latest__emblacontainer {
+    width: 89%;
+    margin: auto;
+}
+
+.latest__emblaelements{
+    display: flex;
+    margin: 10px;
+}
+
+.latest__emblaelements>*{
+    margin: 0 .5rem;
+}
+
+.embla__button {
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    padding: 0; 
+}
+
+.embla__button__svg {
+    width: 100%;
+    height: 100%;
+}
+
+.latest__prev{
+    left: 10px;
+}
+
+.latest__next {
+    right: 10px;
+}

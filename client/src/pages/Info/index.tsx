@@ -1,20 +1,19 @@
 import { Link } from "react-router-dom";
-import { IconMongodb, IconExpress, IconReact, IconNodeJs, IconLinkedin, IconGithub } from "./Componentes/Icons.tsx";
+import { IconMongodb, IconExpress, IconReact, IconNodeJs, IconLinkedin, IconGithub } from "./Components/Icons.tsx";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import "./info.css"
+import "./Styles/info.css"
 
 export default function Info() {
     return (
         <div className="info">
             <div className="info__container">
                 <Link to="/">
-                    <div className="info__logo--container">
+                    <div className="info__logocontainer">
                         <img src="images/Logo.svg" alt="Logo" className="info__logo"/>
                     </div>
-
                 </Link>
 
-                <span className="info__titulo" >desarrollado con</span>
+                <span className="info__title" >desarrollado con</span>
 
                 <div className="info__iconcontainer">
                     <div className="info__icondiv">
@@ -38,15 +37,15 @@ export default function Info() {
                     </div>
                 </div>
 
-                <div className="info__datos">
-                    <div className="info__datos--personales">
-                        <IconLinkedin className="info__datos--icono" link="https://www.linkedin.com/in/agarciamag/"/>
-                        <IconGithub className="info__datos--icono" link="https://github.com/98ag"/>
-                        <span className="info__datos--texto">Agustin Garcia Maggioni [2023]</span>
+                <div className="info__information">
+                    <div className="info__socials">
+                        <IconLinkedin link="https://www.linkedin.com/in/agarciamag/"/>
+                        <IconGithub link="https://github.com/98ag"/>
+                        <span>Agustin Garcia Maggioni [2023]</span>
                     </div>
 
                     <div>
-                        <a href="https://github.com/98ag/GeekStore" className="info__datos--codigo">
+                        <a href="https://github.com/98ag/GeekStore" className="info__code">
                             <span>Ver codigo fuente</span><OpenInNewIcon sx={{ fontSize: 18 }}/>
                         </a>
                     </div>

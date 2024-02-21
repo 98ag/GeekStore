@@ -1,22 +1,37 @@
 # GeekStore
-e-Shop en stack MERN (MongoDB, Express.js, React, Node.js). Se usan las herramientas Mongoose para conexion a base de datos y Redux para manejo de estado global.
+e-Commerce en stack MERN (MongoDB, Express.js, React, Node.js).
+***
 
-# Como lanzar localmente
-  * Descargar los programas necesarios:
+# Deploy local (Docker, Linux)
+
+### Preparacion
+* Clonar el proyecto
+* Descargar los programas necesarios:
     - [Node.js](https://nodejs.org/en)
-    - [MongoDB Community Server](https://www.mongodb.com/try/download/community) (Recomendado: instalar MongoDBCompass para visualizar la base de datos graficamente)
+    - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
-  * Crear la carpeta `C:/data/db`
-  * Lanzar MongoDB en una terminal con el comando `mongod` (De no ser reconocido, [seguir las instrucciones en este articulo](https://medium.com/@therkverma/set-mongodb-in-the-windows-path-environment-9d4c81477b32))
-  * En Compass, conectar a la base de datos local (configuracion default) y crear una nueva database con el nombre `storedb` y la collection `productos`
-  * Click en `import data` -> `storedb.productos.json` -> `Import`
-  * Abrir una terminal en `/server/` y una en `/client/`. En ambas ejecutar `npm install`.
-  * Ejecutar `npx tsx server.ts` en la terminal de `/server/`
-  * Ejecutar `npm run dev` en la terminal de `/client/`
+### Back end
+  * Iniciar Docker Desktop
+  * Abrir una terminal en la carpeta `server`
+  * Lanzar el servidor con el siguiente comando:
+    `docker compose up --build -d`
+### Base de datos
+  * Iniciar MongoDB Compass
+  * Conectarse a la DB con la Connection String (`mongodb://localhost:27017` con la configuracion default)
+  * Abrir la coleccion `products` en la base de datos storedb
+  * Clickear `Import data`. Se abre una ventana, seleccionar el archivo `server/db/storedb.products.json` y clickear `Import`
+### Front end
+  * Navegar a `client` y abrir una terminal
+  * Iniciar el front end con el comando `npm run dev`. Por defecto se abre en `localhost:8081`
+### Agregar una cuenta de administrador
+  * En la página, clickear el boton `Iniciar Sesion` y a continuacion registrar una nueva cuenta
+  * Abrir Compass nuevamente, en la coleccion `users` aparecera la cuenta registrada. Para habilitarla como administrador, hacer doble click en la propiedad `isAdmin` y setearla a `true`
+***
 
 # Live demo
-Se puede ver una live demo del sitio en el siguiente link: https://geekstore-qc7g.onrender.com/
 
-Notas:
-* Puede tardar en cargar o necesitar recargarla varias veces (por limitaciones del free tier de render.com)
-* Puede que las features en el live demo sean diferente a las del codigo fuente. Faltan cosas por hacer :)
+Se puede ver una demo del proyecto en https://geekstore-client.fly.dev/
+
+* Por seguridad, las funciones de CRUD no estan disponibles, solo registro de cuenta e inicio de sesion
+* Puede tardar un poco en cargar, por cuestiones de la funcionalidad gratis de fly.io

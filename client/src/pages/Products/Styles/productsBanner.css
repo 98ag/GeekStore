@@ -1,0 +1,20 @@
+.products__bannercontainer {
+    width: 80vw;
+    position: relative;
+    margin: 1rem auto;
+}
+
+.products__banner {
+    width: 100%;
+    object-fit: contain;
+    object-position: 0 -10%;
+}
+
+.products__bannertext {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}

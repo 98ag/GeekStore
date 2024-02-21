@@ -1,0 +1,31 @@
+.editor__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3rem auto 0;
+    flex-grow: 1;
+}
+
+.editor__container>* {
+    margin: 1.2rem 0!important;
+}
+
+.editor__buttoncontainer {
+    display: flex;
+}
+
+.editor__buttoncontainer>* {
+    margin-right: 1rem!important;
+}
+
+.editor__IDerror {
+    font-size: 1.1rem;
+    display: flex;
+    margin: 3rem auto;
+}
+
+.editor__IDerrorlink {
+    font-weight: 600;
+    color: #2A7AE4;
+    margin-left: .4rem;
+}

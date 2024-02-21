@@ -1,0 +1,37 @@
+# After modifying the config files or making changes to the server code, run the command
+# 'docker compose up --build --force-recreate --renew-anon-volumes -d' to rebuild the containers
+
+services:
+  redis:
+    container_name: token-storage
+    image: redis/redis-stack-server:latest
+## Uncomment the following lines to enable redis password authentication (set REDIS_PASSWORD in .env)
+#    environment:
+#      REDIS_ARGS: "--requirepass redisPassword"
+    restart: always
+
+  mongo:
+    container_name: mongodb
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: storedb
+## Uncomment the following lines to enable mongoDB authentication (set MONGO_USER & MONGO_PASSWD in .env)
+#      MONGO_INITDB_ROOT_USERNAME: root
+#      MONGO_INITDB_ROOT_PASSWORD: admin
+    volumes:
+      - ./dbdata:/data/db
+## Comment these lines after adding sample data and creating an admin account
+    ports:
+    - "27017:27017"
+
+  server:
+    container_name: srv
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+      - redis
+    env_file:
+      - ".env"
+    restart: always

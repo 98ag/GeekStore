@@ -1,35 +1,17 @@
-import Banner from "./Componentes/Banner.tsx";
+import Banner from "./Components/Banner.tsx";
 import { Header, Menu, Footer } from "../../common-components";
-import Ultimos from "./Componentes/Ultimos.tsx";
-import { useNavigate } from "react-router-dom";
+import LatestProducts from "./Components/LatestProducts.tsx";
 
 export default function Home() {
-    const navigate = useNavigate();
-
-    function keyHandler(valor: string) {
-        if (valor)
-            navigate("/catalogo?busq=" + valor);
-        else  
-            navigate("/catalogo");
-    }
-
-    const images = [
-        "images/banner1.png",
-        "images/banner2.jpg",
-        "images/banner3.jpg",
-        "images/banner4.jpg",
-        "images/banner5.jpg"
-    ]
-    
     return(
         <>
             <div className="main">
-                <Header handleSearchBarKey={keyHandler}/>
+                <Header />
                 <Menu />
-                <Banner images={images}/>
-                <Ultimos />
+                <Banner />
+                <LatestProducts />
             </div>
             <Footer />
         </>
-    )
+    );
 }

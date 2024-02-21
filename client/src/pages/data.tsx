@@ -1,35 +1,46 @@
 import { routerType } from "../types/router.types";
 import Home from "./Home";
-import Catalogo from "./Catalogo"
-import Carrito from "./Carrito"
+import Products from "./Products"
+import ShoppingCart from "./ShoppingCart"
 import Info from "./Info";
-import ProductoDetalles from "./ProductoDetalles";
+import ProductDetails from "./ProductDetails";
+import EditOrCreate from "./EditOrCreate";
 
 const pageData: routerType[] = [
     {
         path: "",
         element: <Home />,
-        title: "home"
+        title: "Home"
     },
     {
         path: "/catalogo",
-        element: <Catalogo />,
-        title: "catalogo"
+        element: <Products />,
+        title: "Products"
     },
     {
         path: "/carrito",
-        element: <Carrito />,
-        title: "carrito"
+        element: <ShoppingCart />,
+        title: "ShoppingCart"
     },
     {
         path: "/info",
         element: <Info />,
-        title: "info"
+        title: "Info"
     },
     {
         path: "/detalles",
-        element: <ProductoDetalles />,
-        title: "detalles"
+        element: <ProductDetails />,
+        title: "Detalles"
+    },
+    {
+        path: "/editar",
+        element: <EditOrCreate />,
+        title: "Editar"
+    },
+    {
+        path: "/agregar",
+        element: <EditOrCreate />,
+        title: "Agregar"
     }
 ]
 

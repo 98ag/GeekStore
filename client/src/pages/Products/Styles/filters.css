@@ -1,0 +1,28 @@
+.filters__container {
+    width: 100%;
+    outline: 1px solid #2A7AE4;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .7rem;
+    align-items: center;
+}
+
+.filters__title {
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .7rem;
+    background-color: #2A7AE4;
+    border-radius: 3px;
+    color: white;
+}
+
+.filters__filtercontainer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .2rem;
+    margin: 0 .5rem;
+    outline: 1px solid grey;
+    border-radius: 3px;
+}

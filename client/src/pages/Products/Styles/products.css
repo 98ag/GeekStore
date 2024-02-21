@@ -1,0 +1,11 @@
+.products__container {
+    width: 80vw;
+    margin: 0 auto 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.products__main {
+    width: 68%;
+}

@@ -5,6 +5,18 @@
     align-items: center;
     align-self: center;
     padding: 10px 0;
-    margin: auto;
+    margin: 0 auto;
     width: 90%;
+}
+
+.logo{
+    width: 25%;
+}
+
+.searchbar{
+    width: 35%;
+}
+
+.login{
+    width: auto;
 }
