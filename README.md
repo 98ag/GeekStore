@@ -1,5 +1,5 @@
 # GeekStore
-e-Commerce en stack MERN (MongoDB, Express.js, React, Node.js).
+e-Commerce en stack MERN (MongoDB, Express.js, React, Node.js). Utiliza Redux Toolkit (y Redux Toolkit Query para comunicarse con la API), Mongoose, autorizacion de usuarios con JWT.
 ***
 
 # Deploy local (Docker, Linux)
